@@ -1,10 +1,10 @@
 def check(n):
     if n%2==0:
-        print("loh")
+        return "loh"
     else:
-        print("neloh")
+        return "neloh"
 
 import random
 number = random.randrange(0, 100, 2)
 
-check(number)
+print(check(number))
